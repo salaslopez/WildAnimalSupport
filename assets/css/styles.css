@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333;
+  text-align: left;
+  background-color: #fff;
+}
+
+#mainpage {
+  text-align: center;
+  padding: 40px;
+  background: url(../../assets/img/Untitled.jpg) no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 576px) {
+  #mainpage {
+    padding: 20px;
+  }
+}
+
+#logo {
+  max-height: 35px;
+  margin-right: 13px;
+  margin-top: 2px;
+  display: inline-block;
+}
+
+#mainpage .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.75);
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+@media (min-width: 576px) {
+  #mainpage .jumbotron {
+    padding: 20px;
+  }
+}
+
+#p {
+  color: #6a6a5d;
+}
+
+.container.section {
+  text-align: center;
+  padding: 40px 0 50px;
+}
+
+.container.section h1 {
+  margin-bottom: 20px;
+}
+
+.colorsection {
+  background-color: #d6f0ff;
+}
+
+.blockcolor {
+  background-color: #d6f0ff;
+}
+
+#welcome p {
+  max-width: 800px;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+#aboutus h1 {
+  margin-bottom: -20px;
+}
+
+#decoration {
+  margin-bottom: 25px;
+}
+
+#icon1 {
+  color: rgb(4,10,171);
+}
+
+#icon2 {
+  color: rgb(4,10,171);
+}
+
+#history-p {
+  color: #78736d;
+}
+
+#gallery h1 {
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+#pgallery {
+  font-size: 19px;
+  margin-top: 20px;
+}
+
+#evolution-p {
+  color: #78736d;
+}
+
+#pcoments {
+  margin-left: 40px;
+  font-size: 20Px;
+}
+
+.contact-clean {
+  background-color: #d6f0ff;
+  margin-top: -49px;
+  margin-bottom: -30px;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link.active.active {
+  background-color: #749ae4;
+  border-radius: 9px;
+  border-color: transparent;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #117298;
+  border-color: #106a8c;
+}
+
+#icon3 {
+  color: rgb(4,10,171);
+}
+
+#iconDonation {
+  color: rgb(34,37,122);
+}
+
